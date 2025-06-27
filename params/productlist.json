@@ -1,0 +1,31 @@
+{
+  "productlist": "where are my geodata saved?",
+  "version": 1.1,
+  "releaseDate": "2025-05-22",
+  "geoproduct": [
+    {
+      "name": "Bodenrichtwerte BB",
+      "Herausgeber": {
+        "institution": "LVermGeo BB",
+        "veroeffentlicht": "2025-03-30"
+      },
+      "Ansprechpartner": {
+        "name": "Max Mustermann",
+        "adresse": "Musterrstraße 1",
+        "location": "01234 Musterstadt",
+        "mobil": "0123 123 1234"
+      },
+      "Mail": [
+        "m.mustermann@lvermgeo.bb.de"
+      ],
+      "Zugriff": {
+        "user": "postgres",
+        "version": "17",
+        "port": "5432",
+        "hostname": "127.0.0.1",
+        "tablespace": "tbl_data",
+        "productname": "boris_bb"
+      }
+    }
+  ]
+}
